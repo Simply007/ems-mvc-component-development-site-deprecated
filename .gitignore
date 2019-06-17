@@ -26,12 +26,21 @@ Thumbs.db
 [Bb]in/
 [Oo]bj/
 
-# Visual Studio 2015 cache/options directory
+# Visual Studio cache/options directory
 .vs/
 
 # Ignore Administration Kentico site
 CMS/
 Lib/
+GlobalAssemblyInfo.cs
+WebApp.sln
 
 # Ignore nuget packages
 packages/
+
+# Ignore Nuget packages Kentico content files
+# kentico.languagepack.english
+DevelopmentSite/CMSResources/*
+# kentico.aspnet.mvc
+DevelopmentSite/Kentico/*
+DevelopmentSite/App_Data/Global/Resources/Kentico.*
