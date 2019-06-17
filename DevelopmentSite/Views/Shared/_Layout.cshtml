@@ -10,7 +10,7 @@
 
     @* See ~/App_Start/ApplicationConfig.cs, ~/Controllers/HomeController.cs and ~/Views/Home/Index.cshtml
        Uncomment the following line to add <link> tag referencing the Page builder style bundle. *@
-    @*@Html.Kentico().PageBuilderStyles()*@
+    @Html.Kentico().PageBuilderStyles()
 
 </head>
 <body>
@@ -27,7 +27,7 @@
 
     @* See ~/App_Start/ApplicationConfig.cs, ~/Controllers/HomeController.cs and ~/Views/Home/Index.cshtml
        Uncomment the following line to add <script> tag referencing the Page builder script bundle. *@
-    @*@Html.Kentico().PageBuilderScripts()*@
+    @Html.Kentico().PageBuilderScripts()
 
     @RenderSection("scripts", required: false)
 </body>

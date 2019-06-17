@@ -11,8 +11,8 @@ namespace DevelopmentSite
             // Enable required Kentico features
 
             // Uncomment the following to use the Page builder feature
-            //builder.UsePreview();
-            //builder.UsePageBuilder();
+            builder.UsePreview();
+            builder.UsePageBuilder();
         }
     }
 }
