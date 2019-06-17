@@ -54,6 +54,7 @@
 1. Register `Development application` in IIS/IIS Express
     * use `<TargetFolder>/DevelopmentSite` as a `Physical path`
     * you could use the same Application pool as is set f administration application
+    * run command `update-package -reinstal` (maybe specify actual nuget packages) in Nuget Package Manager console (override all when prompted) might solve the proble (then getting 500 error)
 
 1. Adjust presentation URL in the administration instance
 
