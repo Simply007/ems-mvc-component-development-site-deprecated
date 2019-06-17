@@ -8,7 +8,7 @@
     git clone https://github.com/Simply007/ems-mvc-component-development-kit
     ```
 
-TODO: define what exe file and its name
+    **TODO: define what exe file and its name**
 1. Download Kentico installation exe file 
     * [Trial](https://www.kentico.com/download-demo/trial-version)
     * [Free](https://www.kentico.com/download-demo/free-cms-for-asp-net)
@@ -43,14 +43,24 @@ TODO: define what exe file and its name
     └── ...
     ```
 
-1. Import the package with the site
-    * Site (Presenation URL)
+1. Import [the package](/DevelopmentSite.zip) with the site ([documentation](https://docs.kentico.com/display/K12SP/Importing+a+site+or+objects))
+    * Site (Presentation URL)
     * Page type (configured for page builder - url pattern `/` and use tab checkbox)
     * Page by this page type
     * Automatic web farms
 
-
 1. Adjust connection string + hash string from [/CMS/web.config](/CMS/web.config) to [/DevelopmentSite/web.config]
 
-1. Build both colutions
+1. Register `Development application` in IIS/IIS Express
+    * use `<TargetFolder>/DevelopmentSite` as a `Physical path`
+    * you could use the same Application pool as is set f administration application
+
+1. Adjust presentation URL in the administration instance
+
+1. Run administration in
+
+    TODO: temporary - add nuget source
+    QUESTION: Why the content files are not restored from: kentico.aspnet.mvc (from \\kentico\dev\Build\NugetFeed\) - workaround - copy them manually - but it raise the 500 error - beacuse the chnks and its names has different hash suffix
+
+1. Build both DevelopmentSite
 
