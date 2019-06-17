@@ -44,3 +44,6 @@ DevelopmentSite/CMSResources/*
 # kentico.aspnet.mvc
 DevelopmentSite/Kentico/*
 DevelopmentSite/App_Data/Global/Resources/Kentico.*
+
+# Web farm files
+/DevelopmentSite/App_Data/CMSModules/WebFarm/*.sync
