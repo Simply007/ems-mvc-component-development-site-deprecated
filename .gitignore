@@ -46,3 +46,7 @@ DevelopmentSite/App_Data/Global/Resources/Kentico.*
 
 # Web farm files
 /DevelopmentSite/App_Data/CMSModules/WebFarm/*.sync
+
+# Actual config files
+/DevelopmentSite/AppSettings.config
+/DevelopmentSite/ConnectionStrings.config

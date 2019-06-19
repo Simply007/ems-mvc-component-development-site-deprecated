@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 using CMS.DocumentEngine;
@@ -9,7 +6,7 @@ using CMS.DocumentEngine;
 using Kentico.PageBuilder.Web.Mvc;
 using Kentico.Web.Mvc;
 
-namespace DevelopmentSite.Controllers
+namespace Kentico.AspNet.Mvc.DevelopmentSite
 {
     public class HomeController : Controller
     {

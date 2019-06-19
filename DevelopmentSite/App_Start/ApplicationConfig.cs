@@ -2,7 +2,7 @@ using Kentico.Content.Web.Mvc;
 using Kentico.PageBuilder.Web.Mvc;
 using Kentico.Web.Mvc;
 
-namespace DevelopmentSite
+namespace Kentico.AspNet.Mvc.DevelopmentSite
 {
     public class ApplicationConfig
     {

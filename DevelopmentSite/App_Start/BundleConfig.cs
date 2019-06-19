@@ -1,7 +1,6 @@
-using System.Web;
 using System.Web.Optimization;
 
-namespace DevelopmentSite
+namespace Kentico.AspNet.Mvc.DevelopmentSite
 {
     public class BundleConfig
     {
