@@ -24,7 +24,7 @@
 
 1. Apply the latest [hotfix](https://devnet.kentico.com/download/hotfixes) (or at least 12.0.29)
 
-1. [Download this repository](https://github.com/Simply007/ems-mvc-component-development-kit/archive/master.zip) and extract it under the target folder (`TargetFolder`) that was defined in previous step
+1. [Download this repository](https://github.com/Simply007/ems-mvc-component-development-site/archive/master.zip) and extract it under the target folder (`TargetFolder`) that was defined in previous step
 
     > The content should looks like this
 
@@ -47,7 +47,7 @@
         * Page by this page type
         * Automatic web farms
 
-1. Adjust connection strings + hash string salt from [/CMS/web.config](/CMS/web.config) to [/DevelopmentSite/web.config] according to the [documentation](https://docs.kentico.com/K12SP/Starting+with+MVC+development)
+1. Adjust connection strings + hash string salt from [/CMS/web.config](/CMS/web.config) to [/DevelopmentSite/ConnectionStrings.config] and [/DevelopmentSite/Appsettings.config]
 
 1. Register `Development application` in IIS/IIS Express
     * use `<TargetFolder>/DevelopmentSite` as a `Physical path`
