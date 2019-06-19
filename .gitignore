@@ -50,3 +50,6 @@ DevelopmentSite/App_Data/Global/Resources/Kentico.*
 # Actual config files
 /DevelopmentSite/AppSettings.config
 /DevelopmentSite/ConnectionStrings.config
+
+# Ignore nuild nuget packages
+/DevelopmentSite/*.nupkg
