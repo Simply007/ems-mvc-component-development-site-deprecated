@@ -2,8 +2,6 @@
 
 ## Get started
 
-**TODO: define what exe file and its name**
-
 1. Download Kentico installation exe file
     * [`Kentico_12_0_trial.exe` Trial](https://www.kentico.com/download-demo/trial-version)
 1. Install Kentico using [the command line](https://docs.kentico.com/K12SP/Installing+Kentico+from+the+command+line).
@@ -13,13 +11,13 @@
         * If you wish to add your license to the instance, [adjust the `Licenses` tag in the configuration XML]((https://docs.kentico.com/K12SP/installation/installing-kentico-from-the-command-line/command-line-installation-xml-configuration))
 
       ```sh
-      .\Kentico_12_0_not_signed.exe KenticoInstallationProfile.xml
+      .\Kentico_12_0_trial.exe KenticoInstallationProfile.xml
       ```
 
       > If you get an error about already installed program files run command for uninstalling the current program files and then run the previous command again
 
       ```sh
-      .\Kentico_12_0_not_signed.exe /u
+      .\Kentico_12_0_trial.exe /u
       ```
 
 1. Apply the latest [hotfix](https://devnet.kentico.com/download/hotfixes) (or at least 12.0.29)
