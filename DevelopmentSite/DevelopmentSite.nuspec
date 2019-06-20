@@ -17,13 +17,14 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="Views\Home**" target="content\Views\Home" />
-    <file src="Views\Shared**" target="content\Views\Shared" />
+    <file src="Views\Home\**" target="content\Views\Home" />
+    <file src="Views\Shared\**" target="content\Views\Shared" />
     <file src="Views\_ViewStart.cshtml" target="content\Views" />
+    <file src="Views\web.config" target="content\Views" />
     <file src="App_Start\**" target="content\App_Start" />
     <file src="Global.asax" target="content" />
     <file src="bin\DevelopmentSite.dll" target="lib\net461" />
-    <file src="Web.config" target="content" />
+    <file src="web.config" target="content" />
     <file src="ConnectionStrings.config.template" target="content" />
     <file src="AppSettings.config.template" target="content" />
   </files>
