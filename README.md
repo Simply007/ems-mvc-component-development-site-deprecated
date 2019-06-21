@@ -1,4 +1,6 @@
-# Kentico EMS Component Development Kit
+# Kentico EMS Component Development Site
+
+This is a Asp.Net MVC web application with the Kentico EMS Page builder functionality turned on. This reposi is used as a source for nuget package, that could erich component porject with the MVC app environment for component development.
 
 ## Get started
 
