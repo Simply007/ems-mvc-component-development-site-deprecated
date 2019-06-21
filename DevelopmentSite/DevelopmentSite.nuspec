@@ -24,6 +24,7 @@
     <file src="App_Start\**" target="content\App_Start" />
     <file src="Global.asax" target="content" />
     <file src="bin\DevelopmentSite.dll" target="lib\net461" />
+    <file src="bin\DevelopmentSite.pdb" target="lib\net461" />
     <file src="web.config" target="content" />
     <file src="ConnectionStrings.config.template" target="content" />
     <file src="AppSettings.config.template" target="content" />

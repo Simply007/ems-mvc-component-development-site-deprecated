@@ -53,3 +53,6 @@ DevelopmentSite/App_Data/Global/Resources/Kentico.*
 
 # Ignore nuild nuget packages
 /DevelopmentSite/*.nupkg
+
+# build artifacts
+/artifacts
