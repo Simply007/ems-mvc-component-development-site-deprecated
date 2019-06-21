@@ -63,4 +63,4 @@ This is a Asp.Net MVC web application with the Kentico EMS Page builder function
 
 1. Build `DevelopmentSite` in Visual Studio
 
-![Analytics](https://kentico-ga-beacon.azurewebsites.net/api/UA-69014260-4/ems-mvc-component-development-site?pixel)
+![Analytics](https://kentico-ga-beacon.azurewebsites.net/api/UA-69014260-4/Kentico/ems-mvc-component-development-site?pixel)
