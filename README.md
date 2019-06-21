@@ -1,11 +1,17 @@
 # Kentico EMS Component Development Site
 
-This is a Asp.Net MVC web application with the Kentico EMS Page builder functionality turned on. This reposi is used as a source for nuget package, that could erich component porject with the MVC app environment for component development.
+This is a Asp.Net MVC web application with the Kentico EMS Page builder functionality turned on. This repository is used as a source for nuget package, that could erich component porject with the MVC app environment for component development.
+
+## :warning: Disclaimer
+
+> This repo is still in development. It is about to be released with the [Kentico 12 Service pack is released](https://www.kentico.com/product/roadmap).
 
 ## Get started
 
 1. Download Kentico installation exe file
-    * [`Kentico_12_0_trial.exe` Trial](https://www.kentico.com/download-demo/trial-version)
+    * [`Kentico_12_0_trial.exe` Trial](https
+    
+    //www.kentico.com/download-demo/trial-version)
 1. Install Kentico using [the command line](https://docs.kentico.com/K12SP/Installing+Kentico+from+the+command+line).
     * Use provided [Kentico installation profile](/KenticoInstallationProfile.xml) template and define `TargetFolder` attribute of th `IIS` tag (:warning: Do not use the same location as the one you have you exe file located)
         * This will install Kentico Administration interface without any site
@@ -22,7 +28,7 @@ This is a Asp.Net MVC web application with the Kentico EMS Page builder function
       .\Kentico_12_0_trial.exe /u
       ```
 
-1. Apply the latest [hotfix](https://devnet.kentico.com/download/hotfixes) (or at least 12.0.29)
+1. Apply the latest [hotfix](https://devnet.kentico.com/download/hotfixes) (or at least 12.0.29) (Service Pack)
 
 1. [Download this repository](https://github.com/Simply007/ems-mvc-component-development-site/archive/master.zip) and extract it under the target folder (`TargetFolder`) that was defined in previous step
 
