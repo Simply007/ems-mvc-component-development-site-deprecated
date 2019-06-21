@@ -56,3 +56,5 @@ This is a Asp.Net MVC web application with the Kentico EMS Page builder function
 1. Adjust presentation URL in the administration instance according to the registration from the previous step
 
 1. Build `DevelopmentSite` in Visual Studio
+
+![Analytics](https://kentico-ga-beacon.azurewebsites.net/api/UA-69014260-4/ems-mvc-component-development-site?pixel)
