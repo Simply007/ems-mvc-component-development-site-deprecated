@@ -21,7 +21,6 @@
     <file src="Views\Shared\**" target="content\Views\Shared" />
     <file src="Views\_ViewStart.cshtml" target="content\Views" />
     <file src="Views\web.config" target="content\Views" />
-    <file src="App_Start\**" target="content\App_Start" />
     <file src="Global.asax" target="content" />
     <file src="bin\DevelopmentSite.dll" target="lib\net461" />
     <file src="bin\DevelopmentSite.pdb" target="lib\net461" />
