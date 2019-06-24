@@ -4,7 +4,7 @@ This is a Asp.Net MVC web application with the Kentico EMS Page builder function
 
 ## :warning: Disclaimer
 
-> This repo is still in development. It is about to be released with the [Kentico 12 Service pack is released](https://www.kentico.com/product/roadmap).
+> This repo is still in development. It is about to be released after the [Kentico 12 Service pack is released](https://www.kentico.com/product/roadmap).
 
 ## Get started
 
