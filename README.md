@@ -9,9 +9,7 @@ This is a Asp.Net MVC web application with the Kentico EMS Page builder function
 ## Get started
 
 1. Download Kentico installation exe file
-    * [`Kentico_12_0_trial.exe` Trial](https
-    
-    //www.kentico.com/download-demo/trial-version)
+    * [`Kentico_12_0_trial.exe` Trial](https://www.kentico.com/download-demo/trial-version)
 1. Install Kentico using [the command line](https://docs.kentico.com/K12SP/Installing+Kentico+from+the+command+line).
     * Use provided [Kentico installation profile](/KenticoInstallationProfile.xml) template and define `TargetFolder` attribute of th `IIS` tag (:warning: Do not use the same location as the one you have you exe file located)
         * This will install Kentico Administration interface without any site
