@@ -1,6 +1,10 @@
 # Kentico EMS Component Development Site
 
-This is a Asp.Net MVC web application with the Kentico EMS Page builder functionality turned on. This reposi is used as a source for nuget package, that could erich component porject with the MVC app environment for component development.
+This is a ASP.NET MVC web application with the Kentico EMS Page builder functionality turned on. This repository is used as a source for a nuget package that eriches the component project with an MVC app environment for component development.
+
+## :warning: Disclaimer
+
+> This repo is still in development. It is about to be released after the [Kentico 12 Service pack is released](https://www.kentico.com/product/roadmap).
 
 ## Get started
 
@@ -22,7 +26,7 @@ This is a Asp.Net MVC web application with the Kentico EMS Page builder function
       .\Kentico_12_0_trial.exe /u
       ```
 
-1. Apply the latest [hotfix](https://devnet.kentico.com/download/hotfixes) (or at least 12.0.29)
+1. Apply the latest [hotfix](https://devnet.kentico.com/download/hotfixes) (or at least 12.0.29) (Service Pack)
 
 1. [Download this repository](https://github.com/Simply007/ems-mvc-component-development-site/archive/master.zip) and extract it under the target folder (`TargetFolder`) that was defined in previous step
 
@@ -57,4 +61,4 @@ This is a Asp.Net MVC web application with the Kentico EMS Page builder function
 
 1. Build `DevelopmentSite` in Visual Studio
 
-![Analytics](https://kentico-ga-beacon.azurewebsites.net/api/UA-69014260-4/ems-mvc-component-development-site?pixel)
+![Analytics](https://kentico-ga-beacon.azurewebsites.net/api/UA-69014260-4/Kentico/ems-mvc-component-development-site?pixel)
